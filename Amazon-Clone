@@ -1,1 +1,90 @@
+<html>
+<head>
+    <title>Amazon</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin:0;
+            padding:0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #2C2C4F;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
 
+        nav {
+            background-color: #30305C;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding:0;
+            text-align: centre;
+        }
+
+        nav li {
+            display:inline;
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: Light;
+        }
+
+        section{
+            padding: 20px;
+        }
+
+        article{
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color:#2C2C4F;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom:0;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amazon</h1>
+        <p>Your goods delivered in 15 minutes!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Amazon miniTV</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Mobiles</a></li>
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">New Releases</a></li>
+            <li><a href="#">Prime</a></li>
+            <li><a href="#">Home&Kitchen</a></li>
+            <li><a href="#">Gift Ideas</a></li>
+            <li><a href="#">Clothing</a></li>
+
+        </ul>
+    </nav>
+
+    <footer>
+        <h>Amazon</h>
+        <p>Australia   Brazil   Canada   China   France   Germany   Italy   India   Japan   Mexico   Netherlands   Poland   Singapore   Spain   Turkey   United Arab Emirates   United Kingdom   United States </p>
+    </footer>
+</body>
