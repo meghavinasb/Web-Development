@@ -125,6 +125,7 @@
         border-collapse: collapse;
         padding: 10px;
         min-width: 0%;
+        margin: 0 auto; /* Center horizontally */
     }
 
     ul{
