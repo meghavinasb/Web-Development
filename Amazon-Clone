@@ -1,63 +1,9 @@
+-HTML
+
 <html>
 <head>
     <title>Amazon</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin:0;
-            padding:0;
-            background-color: #f4f4f4;
-        }
-        
-        header {
-            background-color: #2C2C4F;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav {
-            background-color: #30305C;
-            color: white;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding:0;
-            text-align: centre;
-        }
-
-        nav li {
-            display:inline;
-            margin-right: 15px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: white;
-            font-weight: Light;
-        }
-
-        section{
-            padding: 20px;
-        }
-
-        article{
-            margin-bottom: 20px;
-        }
-
-        footer {
-            background-color:#2C2C4F;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom:0;
-            width:100%;
-        }
-    </style>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <header>
@@ -82,10 +28,119 @@
 
         </ul>
     </nav>
+    
+    <table>
+        <caption> <b> Your Upcoming Order </b> </caption>
+        <tr> <th> Product </th> <th> Product ID </th> <td> Delivery On </td> </tr>
+        <tr> <td> Havells Electric Kettle Aqua Plus 1500 Watts 1.2 liters (Black) </td> <td> bgirwb931 </td> <td> 28.02.24 </td></tr>
+        <tr> <td> boAt BassHeads 100 in-Ear Wired Headphones with Mic (Black) </td> <td> hbdhbf9393 </td> <td> 03.03.24 </td></tr>
+        <tr> <td> Little's Plastic Junior Ring (Multicolour) (6 pieces) </td> <td> hfuwb0398 </td> <td> 05.03.24 </td></tr>
+    </table>
+
+    <div class="login-Container" > 
+        <form class="login-form">
+            <h1> SPIN AND WIN CONTEST </h1>
+            <hr>
+            <label for="Mail"> Mail ID:</label> <br>
+            <input type="text" id="Mail" name="username" required > <br>
+            <label for="password"> Password:</label> <br>
+            <input type="password" id="password" name="password" required> <br> <br>
+    
+    <div class="button-container">
+    <button type= " submit " > SPIN AND WIN CONTEST </button>
+    </div>
+        </form><br>
 
     <footer>
         <h>Amazon</h>
         <p>Australia   Brazil   Canada   China   France   Germany   Italy   India   Japan   Mexico   Netherlands   Poland   Singapore   Spain   Turkey   United Arab Emirates   United Kingdom   United States </p>
     </footer>
 </body>
-</html>
+
+
+
+-CSS
+<style>
+    body {
+        font-family: Arial;
+        margin:0;
+        padding:0;
+        background-color: #ece6dd;
+    }
+        
+    header {
+        background-color: #2C2C4F;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        background-color: #30305C;
+        color: white;
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding:0;
+        text-align: centre;
+    }
+
+    nav li {
+        display:inline;
+        margin-right: 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: Light;
+    }
+
+    section{
+        padding: 20px;
+    }
+
+    article{
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color:#2C2C4F;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom:0;
+        width:100%;
+    }
+
+    table,th,td{
+        text-align: center;
+        border: 1px solid #ce7539;
+        border-collapse: collapse;
+        padding: 10px;
+        min-width: 0%;
+    }
+
+    ul{
+        list-style-type: square;
+    }
+
+    .login-container{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+    }
+
+    button {
+        padding: 10px;
+        background-color: #ce7539;
+        color:#ece6dd;
+        cursor: pointer;
+    }
+</style>
+
